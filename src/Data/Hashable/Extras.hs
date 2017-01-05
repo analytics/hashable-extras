@@ -23,7 +23,7 @@ module Data.Hashable.Extras
 
 import Data.Bifunctor
 import Data.Functor.Identity
-import Data.Hashable
+import Data.Hashable (Hashable (..))
 
 data Hashed = Hashed { unhashed :: Int -> Int }
 
