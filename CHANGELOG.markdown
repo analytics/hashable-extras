@@ -1,3 +1,7 @@
+0.2.3.1
+-------
+* Fix compilation with `hashable-1.2.5.0`
+
 0.2.3
 -----
 * ghc 8 support
